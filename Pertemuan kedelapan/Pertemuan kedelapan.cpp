@@ -26,5 +26,14 @@ void addNode() {
 			cout << "NIM Sudah ada " << endl;
 			return;
 		}
+
+		nodeBaru->next = START;
+		START = nodeBaru;
+		return;
 	}
+
+	Node* previoous = START;
+	Node* current = START;
+
+
 }
